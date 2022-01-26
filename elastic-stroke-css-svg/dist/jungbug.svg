@@ -1,15 +1,28 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>jungbug</title>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <symbol id="s-text">
+  
+    <text text-anchor="middle"
+          x="50%"
+          y="35%"
+          class="text--line"
+          >
+          jungbug
+    </text>
+    <text text-anchor="middle"
+          x="50%"
+          y="68%"
+          class="text--line2"
+          >
+          github
+    </text>
+  </symbol>
   <style>
     HTML, BODY {
   height: 100%;
 }
 
-BODY {
-  background: #082330;
+symbol {
   background-size: 0.12em 100%;
   font: 16em/1 Arial;
 }
@@ -68,26 +81,7 @@ svg {
 }
   </style>
 
-</head>
-<body>
-<svg viewBox="0 0 800 600">
-  <symbol id="s-text">
-    <text text-anchor="middle"
-          x="50%"
-          y="35%"
-          class="text--line"
-          >
-          jungbug
-    </text>
-    <text text-anchor="middle"
-          x="50%"
-          y="68%"
-          class="text--line2"
-          >
-          github
-    </text>
-    
-  </symbol>
+
   
   <g class="g-ants">
     <use xlink:href="#s-text"
@@ -104,6 +98,3 @@ svg {
   
   
 </svg>
-  
-</body>
-</html>
