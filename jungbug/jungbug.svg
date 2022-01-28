@@ -40,23 +40,23 @@ svg {
           animation: stroke-offset 9s infinite linear;
 }
 .text-copy:nth-child(1) {
-  stroke: #ffffff;
+  stroke: #9f88d6;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #ffffff;
+  stroke: #9f88d6;
   stroke-dashoffset: 14%;
 }
 .text-copy:nth-child(3) {
-  stroke: #ffffff;
+  stroke: #8362d9;
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
-  stroke: #ffffff;
+  stroke: #8362d9;
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {
-  stroke: #ffffff;
+  stroke: #7752d5;
   stroke-dashoffset: 35%;
 }
 
